@@ -1,0 +1,93 @@
+:root {
+  --primary-color: rgb(24, 151, 215);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: rgb(59, 55, 70);
+}
+
+p {
+  color: rgb(224, 224, 224);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 18px;
+  padding: 8px 25px;
+  max-width: fit-content;
+  transition: filter 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  filter: brightness(90%);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  border-radius: 18px;
+  padding: 8px 25px;
+  max-width: fit-content;
+  transition: filter 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  filter: brightness(90%);
+}
+
+/*HERO*/
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 8%;
+}
+
+header h1 {
+  font-family: "Inter", sans-serif;
+}
+
+#scroll {
+  color: gray;
+  letter-spacing: 1rem;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero_principal {
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#hero_principal h2 {
+  font-size: 5rem;
+}
+
+#slogan {
+  display: flex;
+  justify-content: center;
+  flex: 50%;
+}
+
+.double-button {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
