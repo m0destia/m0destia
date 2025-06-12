@@ -15,10 +15,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-##Trabalho com 
+## Trabalho com 
 CSS, JS, HTML, React, Bootstrap, TS, Python 
-##O que faço
+## O que faço
 landing pages, apps simples, sites em geral
-##O que esperar?
+# #O que esperar?
 Sites modernos e responsivos, apps simples que fazem o que pedem
-##Procuro trabalho
+## Procuro trabalho
