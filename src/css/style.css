@@ -7,15 +7,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  color: white;
+  color: rgb(34, 34, 34);
 }
 
 body {
-  background-color: rgb(59, 55, 70);
+  background-color: rgb(248, 248, 248);
 }
 
 p {
-  color: rgb(224, 224, 224);
+  color: rgb(41, 41, 41);
 }
 
 .btn-primary {
@@ -65,24 +65,31 @@ header {
 
 header h1 {
   font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
 }
 
 #scroll {
-  color: gray;
+  color: rgb(68, 68, 68);
   letter-spacing: 1rem;
+  margin-top: 8rem;
 }
 
 #hero {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
 }
 
 #hero_principal {
   display: flex;
-  flex: 50%;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #hero_principal h2 {
@@ -90,15 +97,23 @@ header h1 {
 }
 
 #slogan {
-  display: flex;
-  justify-content: center;
-  flex: 50%;
+  position: absolute;
+  top: 150px;
+  right: 0;
+  z-index: -1;
 }
 
 .double-button {
   margin-top: 2rem;
   display: flex;
   gap: 2rem;
+}
+
+/*ABOUTME*/
+
+#about_me p {
+  font-size: 1.1rem;
+  max-width: 800px;
 }
 
 /*PROJECTS*/
@@ -117,8 +132,8 @@ header h1 {
   flex-direction: column;
   gap: 2rem;
   border-radius: 13px;
-  background: linear-gradient(rgb(26, 26, 26), rgb(34, 34, 34));
-  box-shadow: inset 0 8px 15px rgb(53, 53, 53), inset 0 -8px 15px rgb(0, 0, 0);
+  background: linear-gradient(rgb(223, 223, 223), rgb(207, 207, 207));
+  box-shadow: 0 0px 15px rgb(0, 0, 0);
 }
 
 .card aside {
