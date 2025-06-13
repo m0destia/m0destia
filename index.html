@@ -21,6 +21,14 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>m0destia</title>
   </head>
   <body>
@@ -31,10 +39,13 @@
           <h2 class="sect-title">m0destia</h2>
           <p>Transformando vidas com código.</p>
           <div class="double-button">
-            <button class="btn-primary">Ver projetos</button>
-            <button class="btn-secondary">Me contrate</button>
+            <button class="btn-primary" id="project_button">
+              Ver projetos
+            </button>
+            <button class="btn-secondary" id="contract_button">
+              Me contrate
+            </button>
           </div>
-          <span id="scroll">↓ scroll ↓</span>
         </div>
       </section>
       <img
@@ -47,12 +58,16 @@
       <section id="about_me">
         <h2 class="sect-title">SOBRE MIM</h2>
         <p>
-          Olá! Crio sites há mais de 1 ano, me interessei por programação desde
-          minha infância mas só agora, pude começar bem nesse ramo. Uso
-          tecnologias como: JS, Python, NodeJS, CSS, HTML, TS, React, Bootstrap,
-          Figma e TailwindCSS. Primariamente sou Front-end, mas, trabalho com
-          Back-end também.
+          Olá! Trabalho com criação de sites há mais de um ano. Meu interesse
+          por tecnologia começou ainda na infância, mas foi recentemente que
+          consegui me dedicar de forma mais estruturada à área. Utilizo
+          tecnologias como JavaScript, TypeScript, Python, Node.js, HTML, CSS,
+          React, Bootstrap, Figma e TailwindCSS. Atuo principalmente como
+          desenvolvedor Front-end, mas também tenho experiência com Back-end.
         </p>
+        <a href="https://github.com/m0destia" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
       </section>
       <section id="projects">
         <h2 class="sect-title">PROJETOS</h2>
@@ -81,12 +96,42 @@
             <h2>Weather App</h2>
             <img
               src="src/assets/weatherapp.png"
-              alt="Imagem do site stphdesigner"
+              alt="Imagem do site weatherapp"
             />
             <aside>clique para ir ao site!</aside>
           </div>
         </div>
+        <div id="hiperprice" class="sided">
+          <div class="card">
+            <h2>Hiperprice Supermercado</h2>
+            <img
+              src="src/assets/hiperprice.png"
+              alt="Imagem do site fictício hiperprice"
+            />
+            <aside>clique para ir ao site!</aside>
+          </div>
+          <p>
+            Um site fictício sobre um supermercado, utilizei TailwindCSS, JS,
+            React. É um projeto super simples, focado na funcionalidade,
+            utilizando os dados de armazenamento do próprio navegador.
+          </p>
+        </div>
+      </section>
+      <section id="contact">
+        <h2 class="sect-title">CONTATO</h2>
+        <div class="media">
+          <span id="email"><i class="fa-solid fa-envelope"></i>m0destia</span
+          ><span>@outlook.com</span>
+        </div>
+        <p>
+          Me contate diretamente do e-mail acima, responderei assim que puder!
+        </p>
       </section>
     </main>
+    <footer>
+      <h2>&copy; m0destia - 2025 - Todos os direitos reservados</h2>
+    </footer>
+
+    <script src="src/js/script.js"></script>
   </body>
 </html>

@@ -12,6 +12,11 @@
 
 body {
   background-color: rgb(248, 248, 248);
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 p {
@@ -109,11 +114,38 @@ header h1 {
   gap: 2rem;
 }
 
+@media screen and (max-width: 1690px) {
+  #slogan {
+    display: none;
+  }
+}
+
 /*ABOUTME*/
 
+#about_me {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
 #about_me p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   max-width: 800px;
+}
+
+#about_me a {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1280px) {
+  #about_me {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about_me p {
+    text-align: center;
+  }
 }
 
 /*PROJECTS*/
@@ -154,4 +186,80 @@ header h1 {
 .sided p {
   max-width: 366px;
   font-size: 2rem;
+}
+
+@media screen and (max-width: 1280px) {
+  #projects {
+    align-items: center;
+  }
+
+  .sided {
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0 0 15px black;
+    padding: 18px;
+    border-radius: 14px;
+  }
+
+  .sided p {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .card img {
+    max-width: 260px;
+  }
+
+  .card {
+    max-width: 290px;
+  }
+
+  .sided {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sided p {
+    font-size: 1.1rem;
+  }
+}
+
+/*CONTATO*/
+
+#contact {
+  margin-top: 10rem;
+}
+
+.media {
+  font-size: 1.5rem;
+}
+
+#email i {
+  margin-right: 1rem;
+}
+
+#contact p {
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+}
+
+/*FOOTER*/
+
+footer {
+  min-width: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 4rem;
+  margin-top: 10rem;
+}
+
+footer h2 {
+  font-weight: normal;
+  font-size: clamp(0.8rem, 5vw, 1.5rem);
 }
