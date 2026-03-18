@@ -16,9 +16,8 @@ Here are some ideas to get you started:
 -->
 
 ## Trabalho com 
-CSS, JS, HTML, React, Bootstrap, TS, Python 
+CSS, JS, HTML, React
 ## O que faço
-landing pages, apps simples, sites em geral
-# #O que esperar?
-Sites modernos e responsivos, apps simples que fazem o que pedem
-## Procuro trabalho
+Landing pages, apps simples, sites e sistemas em geral
+## O que esperar?
+Sites modernos e responsivos, apps simples que fazem o que pedem, sistemas responsivos
