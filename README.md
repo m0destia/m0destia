@@ -2,7 +2,7 @@
 
 ## Trabalho com
 
-CSS, JS, HTML, React
+CSS, JS, HTML, React, PY, Bootstrap e mais
 
 ## O que faço
 
